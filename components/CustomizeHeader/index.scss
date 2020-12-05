@@ -1,0 +1,81 @@
+.content {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    .boxTitle {
+        box-sizing: border-box;
+        background: #fafafa;
+        padding: 0 20px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: #111111;
+        border-radius: 10px 10px 0 0;
+    }
+}
+.contentNone {
+    .boxTitle {
+        box-sizing: border-box;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #111111;
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        // color: #111111;
+    }
+}
+
+.autoColums {
+    border-top: 1px solid #eee;
+    margin-top: 15px;
+    padding-top: 15px;
+    line-height: 20px !important;
+    cursor: pointer;
+}
+.setting-font-frozen {
+    width: 22px;
+    height: 22px;
+    line-height: 22px !important;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.download-font-frozen {
+    width: 22px;
+    height: 22px;
+    line-height: 22px !important;
+    font-size: 12px;
+    // border: none !important;
+    color: #666;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 2px;
+    transform: rotate(180deg);
+    margin-left: 8px;
+}
+.draw-total-number {
+    font-size: 12px;
+    line-height: 12px;
+    color: #111;
+}
+.downListModal {
+    width: 60%;
+}
+.downListTablePagination {
+    margin-top: 20px;
+}
+.autoSet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.autoColums {
+    color: #2775ff;
+    text-align: center;
+    line-height: 40px;
+}
